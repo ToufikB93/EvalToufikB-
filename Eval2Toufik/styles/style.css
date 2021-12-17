@@ -1,0 +1,150 @@
+
+
+#navbarNavDropdown 
+  {
+background: linear-gradient(to bottom, yellow, lightseagreen);
+margin: 5px;
+
+}
+
+
+.container-fluid
+  {
+	background: linear-gradient(to bottom, yellow, lightseagreen);
+	padding: 10px;
+
+}
+
+
+
+
+
+
+
+.main 
+  {
+
+ 
+ display:flex;
+  width:90%;
+  height: 50%;
+  margin-top: 10px;
+  margin: 10px;
+  justify-content:space-between;
+  align-items:center;
+  align-content: space-between;
+
+
+}
+
+
+
+.accord
+  {
+
+height: 500px;
+width: 700px;
+
+margin: 30px;
+background-color: lightseagreen;
+padding-bottom: 100px;
+padding-top: 120px;
+padding-left: 0px;
+padding-right: 0px;
+border-radius: 10px;
+margin-right: 80px;
+margin-left: 20px;
+}
+
+
+
+.row 
+  {
+height: 500px;
+width: 700px;
+
+background-color: teal;
+padding: 100px;
+padding-left: 50px;
+padding-right: 110px;
+border-radius: 10px;
+margin-left: 80px;
+margin-right: 20px;
+
+}
+
+
+
+
+.carou
+  {
+
+margin-top: 5px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 0;
+height: 200px;
+background-color: black;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#carouselExampleControls
+  {
+ 
+height: 200px;
+width: 250px;
+padding: 50px;
+
+}
+
+
+
+
+@media screen and (max-width: 1080px){
+
+     .row {
+		padding: 0;
+        height: 560px;
+        margin: 10px;
+	}
+
+
+    .accord{
+        margin: 10px;
+    }
+
+
+ .container-fluid, #navbarNavDropdown {
+
+    background: darkslategrey;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 720px){
+
+      .row {
+        padding: 1px;
+        height: 600px;
+        margin: 10px;
+    }
+
+    .accord{
+        margin: 10px;
+    }
+
+
+ .container-fluid, #navbarNavDropdown {
+
+    background: darkslategrey;
+    }
+
+
+}
